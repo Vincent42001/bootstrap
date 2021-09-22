@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Portfolio - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+ 
+  <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand text-success fw-bold fs-4" href="#">VinceG</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-success px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#about">About</a></li>
+          <li><a class="dropdown-item" href="#services">Services</a></li>
+          <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+          <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+          <li><a class="dropdown-item" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="home bg-info py-5" id="home">
+    <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+            <div class="col-md-6 mt-5 mt-md-0">
+                <div class="home-img text-center">
+                    <img src="pf.jpg" class="rounded-circle mw-100" alt="profile img">
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                <div class="home-text">
+                    <p class=" mb-1">Hi I'm</p>
+                    <h1 class="text-primary text-uppercase fs-1 fw-bold">Vincent Anthony R. Gabut</h1>
+                    <h2 class="fs-4"></h2>
+                    <p class=".text-success mt-4 ">A second-year BSIT student at the University of Immaculate Conception</p>
+                    <a href="#portfolio" class="btn btn-warning px-3 mt-3">My Work</a>
+                </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<section class="about py-5" id="about">
+  <div class="container-lg py-4">
+      <div class="row justify-content-center">
+          <div class="col-lg-8">
+              <div class="section-title text-center">
+                  <h2 class=" text-primary fw-bold mb-5">About Me</h2>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6">
+            <div class="about-text">
+                <h3 class="fs-4 mb-3">Vincent Anthony R. Gabut</h3>
+                <p class="text-muted">A second-year BSIT student at the University of Immaculate Conception</p>
+            </div>
+            <div class="row text-center text-uppercase my-3">
+                <div class="col-sm-4">
+                    <div class="fact-item">
+                        <h4 class="fs-1 fw-bold"></h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            
+                <div class="col-sm-4">
+                    <div class="fact-item">
+                        <h4 class="fs-1 fw-bold"></h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="fact-item">
+                        <h4 class="fs-1 fw-bold"></h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 d-flex align-items-center">
+                    <a href="#" class="btn px-3 btn-success me-5">Download CV</a>
+                    <div class="social-links">
+                        <a href="#" class="text-dark me-2"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skill-item mb-4">
+                <h3 class="fs-6">Html</h3>
+                <div class="progress" style="height: 10px;">
+                    <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            </div>
+            <div class="skill-item mb-4">
+                <h3 class="fs-6">CSS</h3>
+                <div class="progress" style="height: 10px;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 40%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            </div>
+            <div class="skill-item mb-4">
+                <h3 class="fs-6">Javascript</h3>
+                <div class="progress" style="height: 10px;">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            </div>
+            <div class="skill-item mb-4">
+                <h3 class="fs-6">Bootstrap</h3>
+                <div class="progress" style="height: 10px;">
+                    <div class="progress-bar bg-dark" role="progressbar" style="width: 5%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<section class="services bg-warning py-5" id="services">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="section-title text-center">
+                <h2 class="text-primary fw-bold mb-5">What I Do</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-6 col-lg-4  mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+                <div class="icon my-3 text-success fs-2">
+                    <i class="fas fa-pen-nib"></i>
+                </div>
+                <h3 class="fs-5 py-2">GRAPHICS DESIGN</h3>
+                <p class="text-muted">2 months of experience</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+                <div class="icon my-3 text-success fs-2">
+                    <i class="fas fa-basketball-ball"></i>
+                </div>
+                <h3 class="fs-5 py-2">Basketball</h3>
+                <p class="text-muted">lorem ipsum</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+                <div class="icon my-3 text-success fs-2">
+                    <i class="fas fa-file-code"></i>
+                </div>
+                <h3 class="fs-5 py-2">WEB DESIGNER</h3>
+                <p class="text-muted">2 months of experience</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section class="portfolio py-5" id="portfolio">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="section-title text-center">
+                <h2 class="text-primary fw-bold mb-5">Latest Works</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+                <img src="Jose-Rizal.jpg" class="w-75 img-thumbnail" alt="portfolio item">
+                <h3 class="text-capitalize fs-5 my-2">Tribute Page</h3>
+                <p class="mb-4"><a href="" class="text-success text-decoration-none">See Page</a></p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+                <img src="restau.jpg" class="w-75 img-thumbnail" alt="portfolio item">
+                <h3 class="text-capitalize fs-5 my-2">Restaurant Page</h3>
+                <p class="mb-4"><a href="" class="text-success text-decoration-none">See Page</a></p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+                <img src="technolog.jpg" class="w-75 img-thumbnail" alt="portfolio item">
+                <h3 class="text-capitalize fs-5 my-2">Digital Page</h3>
+                <p class="mb-4"><a href="" class="text-success text-decoration-none">See Page</a></p>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="freelancer-available py-5 bg-success">
+  <div class="container-lg py-4">
+      <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+              <p class="text-light fs-5">Do you have any questions?</p>
+              <h2 class="fs-1 text-white mb-4">I'm Available To Answer Your Questions</h2>
+              <a href="#contact" class="btn btn-outline-light">Message Me</a>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="text-primary testimonials py-5" id="testimonials">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="section-title text-center">
+                <h2 class="fw-bold mb-5">Testimonials</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-success" ></li>
+                  <li class="bg-success" data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                  <li  class="bg-success" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner p-1">
+            <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                    <img src="ss.jpg" class="img-thumbnail rounded-circle" alt="author img">
+                    <div class="author ms-3">
+                        <h3 class="fs-6 mb-1">Vincent Gabut</h3>
+                        <p class="text-muted m-0">Student</p>
+                    </div>
+                </div>
+                <p class="text-muted mt-3">BSIT 2nd Year College at The University of Immaculate Conception</p>
+                <div class="rating text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                    <img src="ss.jpg" class="img-thumbnail rounded-circle" alt="author img">
+                    <div class="author ms-3">
+                        <h3 class="fs-6 mb-1">Vincent Gabut</h3>
+                        <p class="text-muted m-0">Student</p>
+                    </div>
+                </div>
+                <p class="text-muted mt-3">BSIT 2nd Year College at The University of Immaculate Conception</p>
+                <div class="rating text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testi-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                <div class="testi-author-info d-flex align-items-center">
+                    <img src="ss.jpg" class="img-thumbnail rounded-circle" alt="author img">
+                    <div class="author ms-3">
+                        <h3 class="fs-6 mb-1">Vincent Gabut</h3>
+                        <p class="text-muted m-0">Student</p>
+                    </div>
+                </div>
+                <p class="text-muted mt-3">BSIT 2nd Year College at The University of Immaculate Conception</p>
+                <div class="rating text-warning">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact bg-danger py-5" id="contact">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="section-title text-center">
+                <h2 class="text-success fw-bold mb-5">Contact Me</h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+                <div class="icon fs-4 text-warning">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="text ms-3 text-white">
+                    <h3 class="fs-5">Email</h3>
+                    <p class=>vgabut_200000000993@uic.edu.ph</p>
+                </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+                <div class="icon fs-4 text-warning">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="text ms-3 text-white">
+                    <h3 class="fs-5">Phone</h3>
+                    <p class=>09512548355</p>
+                </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+                <div class="icon fs-4 text-warning">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="text ms-3 text-white">
+                    <h3 class="fs-5">Visit Office</h3>
+                    <p class=>Juliville Subd. Phase 1 Makiling Street ,Dava City</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="contact-form">
+                <form>
+                    <div class="row">
+                        <div class="col-lg-6 mb-4">
+                            <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 mb-4">
+                            <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 mb-4">
+                            <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <button type="submit" class="btn btn-warning px-3">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer border-top py-4">
+  <div class="container-lg">
+      <div class="row">
+          <div class="col-lg-12">
+              <p class="m-0 text-center text-muted">&copy; 2021 VinceG</p>
+          </div>
+      </div>
+  </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
